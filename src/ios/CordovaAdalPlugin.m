@@ -63,7 +63,7 @@
                  acquireTokenWithResource:resourceId
                  clientId:clientId
                  redirectUri:redirectUri
-                 promptBehavior:AD_PROMPT_AUTO
+                 promptBehavior:AD_PROMPT_ALWAYS
                  userId:userId
                  extraQueryParameters:extraQueryParameters
                  completionBlock:^(ADAuthenticationResult *result) {
